@@ -1,0 +1,28 @@
+ALGORİTMA VE PROGRAMLAMAYA GİRİŞ
+
+DEĞERLENDİRME SORULARI
+
+1. Dışarıdan girilen 3x3 lük bir matrisi, matris biçiminde ekrana yazdırınız.
+
+2. Çarpım tablosunu ekranda oluşturan kodları yazınız. Not: Döngü ifadeleri olmadan yalnızca ekrana yazdırma komutları ile yapınız.
+
+3. Dışarıdan girilen kelimeleri yan yana yazdırınız.
+
+4. Dışarıdan girilen ondalıklı sayıları virgülden sonra 1 basamaklı olarak yazdırınız.
+
+5. Sistem saatini saat ve dakika cinsinden yazdırınız.
+
+6. Sistem tarihini gün ve yıl yan yana olarak ekrana yazdırınız.
+
+7. Dışarıdan girilen char tipindeki verinin 'E' olup olmadığını kontrol ediniz.
+
+8. Dışarıdan girilen 3 sayıyı "birinci sayı = 4, ikinci sayı = 6 üçüncü sayı = 7" şeklinde ekrana yazdırınız.
+
+9. Dışarıdan girilen sayının genişliğini 5 yaparak ekrana yazdırınız. Örneğin dışarıdan girilen sayı =345 ise 00345 şeklinde yazdırılacak.
+
+10. Dışarıdan girilen iki sayı ve bir string değeri aşağıdaki şekilde ekrana yazdırınız. İki nokta üst üste işaretlerinin aynı sırada olmasına dikkat ediniz.
+
+1.Sayı   :  12
+2.Sayı   :  1234
+
+Adınız   :  Abdullah Yunus

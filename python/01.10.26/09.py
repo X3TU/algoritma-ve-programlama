@@ -5,7 +5,7 @@ sayi = input("sayi giriniz: ")
 isaret = ""
 if sayi.startswith("-"):
     isaret = "-"
-    sayi = sayi[1:]          # eksiyi at, sadece rakamlar kalsın
+    sayi = sayi[1:]
 
 sifirsayisi = 5 - len(sayi)
 print(isaret, "0"*sifirsayisi, sayi, sep="")
