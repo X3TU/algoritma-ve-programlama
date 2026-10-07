@@ -6,17 +6,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Lutfen ONDALIKLI SAYI giriniz ve basamağı NOKTA (.) ile ayirinz virgulle degil !!!!");
-        string s = Console.ReadLine();
-        float girdi;
+        Console.WriteLine("ondalıklı sayı giriniz");
+        float girdi = float.Parse(Console.ReadLine());
 
-        if (float.TryParse(s, out girdi))   //burda eger s inputuna float dısında deger str fln girilirse hata mesaji yazdiriyoruz eger normal float girerse sıkıntı yok s == girdi degiskenine donusuyo direkt
-        {
-            Console.WriteLine("{0:F1}", girdi); // asil olay burda, F1 demek F fixed point yani virgulden sonraki basmaak sayısı sabit, F1 dedigimiz icinde virgulden sonra bir basamak gosterıyor, F2 yazsaydık iki basamak gostercekti.
-        }
-        else
-        {
-            Console.WriteLine("SAYI GIRMENIZ GEREKIYORDU!!");
-        }
+        Console.WriteLine("{0:F3}", girdi); // asil olay burda, F1 demek F fixed point yani virgulden sonraki basmaak sayısı sabit, F1 dedigimiz icinde virgulden sonra bir basamak gosterıyor, F2 yazsaydık iki basamak gostercekti.
+
     }
+    
 }
