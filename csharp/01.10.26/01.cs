@@ -18,6 +18,8 @@ class Program
         int say8 = Convert.ToInt32(Console.ReadLine());
         int say9 = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine($"{say1},{say2},{say3}\n{say4},{say5},{say6}\n{say7},{say8},{say9}");
+
+
+        Console.WriteLine("{0}\t{1}\t{2}\n{3}\t{4}\t{5}\n{6}\t{7}\t{8}", say1,say2,say3,say4,say5,say6,say7,say8,say9);
     }
 }

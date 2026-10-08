@@ -1,7 +1,7 @@
 #1. Dışarıdan girilen 3x3 lük bir matrisi, matris biçiminde ekrana yazdırınız.
 
 ###1.çözüm###
-"""
+
 a = int(input("1. sayı: "))
 b = int(input("2. sayı: "))
 c = int(input("3. sayı: "))
@@ -20,10 +20,9 @@ print(g, h, i)
 
 print(f"{a}\t{b}\t{c}\n{d}\t{e}\t{f}\n{g}\t{h}\t{i}")
 
-"""
 
 ###2.çözzüm for loop ile###
-
+"""
 matris=[]
 for i in range(3):
     satir = []
@@ -35,3 +34,4 @@ for satir in matris:
     print(satir, end="\n")
 
 
+"""
